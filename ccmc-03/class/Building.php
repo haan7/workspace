@@ -1,11 +1,11 @@
 <<?php
 class Building{
  //properties    
-    private $name;
-    private $height;
+    protected $name;
+    protected $height;
    
     //constructor
-    function _construct($name,$height){
+    function __construct($name,$height){
         $this->name = $name;
         $this->height = $height;
        
